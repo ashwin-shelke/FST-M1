@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="311020" started-at="2021-11-04T11:00:58Z" finished-at="2021-11-04T11:06:09Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="311020" started-at="2021-11-04T11:00:58Z" finished-at="2021-11-04T11:06:09Z">
+      <class name="Activities.Activity3">
+        <test-method status="PASS" signature="load()[pri:0, instance:Activities.Activity3@4ec6a292]" name="load" is-config="true" duration-ms="1" started-at="2021-11-04T16:32:48Z" finished-at="2021-11-04T16:32:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- load -->
+        <test-method status="PASS" signature="callLogin(java.lang.String, java.lang.String)[pri:0, instance:Activities.Activity3@4ec6a292]" name="callLogin" duration-ms="9619" started-at="2021-11-04T16:32:48Z" data-provider="Authentication" finished-at="2021-11-04T16:32:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[orange]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[orangepassword123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- callLogin -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Activities.Activity3@4ec6a292]" name="close" is-config="true" duration-ms="2174" started-at="2021-11-04T16:32:58Z" finished-at="2021-11-04T16:33:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Activities.Activity3 -->
+      <class name="Activities.Activity2">
+        <test-method status="PASS" signature="load()[pri:0, instance:Activities.Activity2@1b40d5f0]" name="load" is-config="true" duration-ms="1" started-at="2021-11-04T16:33:00Z" finished-at="2021-11-04T16:33:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- load -->
+        <test-method status="PASS" signature="getHeaderUrl()[pri:0, instance:Activities.Activity2@1b40d5f0]" name="getHeaderUrl" duration-ms="11109" started-at="2021-11-04T16:33:00Z" finished-at="2021-11-04T16:33:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getHeaderUrl -->
+      </class> <!-- Activities.Activity2 -->
+      <class name="Activities.Activity1">
+        <test-method status="PASS" signature="load()[pri:0, instance:Activities.Activity1@ea4a92b]" name="load" is-config="true" duration-ms="1" started-at="2021-11-04T16:33:11Z" finished-at="2021-11-04T16:33:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- load -->
+        <test-method status="PASS" signature="getTitle()[pri:0, instance:Activities.Activity1@ea4a92b]" name="getTitle" duration-ms="12064" started-at="2021-11-04T16:33:11Z" finished-at="2021-11-04T16:33:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTitle -->
+      </class> <!-- Activities.Activity1 -->
+      <class name="Activities.Activity7">
+        <test-method status="PASS" signature="load()[pri:0, instance:Activities.Activity7@5a01ccaa]" name="load" is-config="true" duration-ms="1" started-at="2021-11-04T16:34:54Z" finished-at="2021-11-04T16:34:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- load -->
+        <test-method status="PASS" signature="updateQualification(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Activities.Activity7@5a01ccaa]" name="updateQualification" duration-ms="48669" started-at="2021-11-04T16:34:54Z" data-provider="Authentication" finished-at="2021-11-04T16:35:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[orange]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[orangepassword123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Infosy]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TestAnalyst]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Mar]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2008]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Dec]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[28]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[2020]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateQualification -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Activities.Activity7@5a01ccaa]" name="close" is-config="true" duration-ms="1535" started-at="2021-11-04T16:35:43Z" finished-at="2021-11-04T16:35:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Activities.Activity7 -->
+      <class name="Activities.Activity6">
+        <test-method status="PASS" signature="load()[pri:0, instance:Activities.Activity6@71c7db30]" name="load" is-config="true" duration-ms="1" started-at="2021-11-04T16:35:44Z" finished-at="2021-11-04T16:35:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- load -->
+        <test-method status="PASS" signature="directoryMenuCheck(java.lang.String, java.lang.String)[pri:0, instance:Activities.Activity6@71c7db30]" name="directoryMenuCheck" duration-ms="23764" started-at="2021-11-04T16:35:44Z" data-provider="Authentication" finished-at="2021-11-04T16:36:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[orange]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[orangepassword123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- directoryMenuCheck -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Activities.Activity6@71c7db30]" name="close" is-config="true" duration-ms="1337" started-at="2021-11-04T16:36:08Z" finished-at="2021-11-04T16:36:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Activities.Activity6 -->
+      <class name="Activities.Activity5">
+        <test-method status="PASS" signature="load()[pri:0, instance:Activities.Activity5@16c0663d]" name="load" is-config="true" duration-ms="15" started-at="2021-11-04T16:30:58Z" finished-at="2021-11-04T16:30:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- load -->
+        <test-method status="PASS" signature="addEmployee(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Activities.Activity5@16c0663d]" name="addEmployee" duration-ms="81837" started-at="2021-11-04T16:30:58Z" data-provider="Authentication" finished-at="2021-11-04T16:32:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[orange]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[orangepassword123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Bill]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Bush]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Indian]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Feb]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1947]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEmployee -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Activities.Activity5@16c0663d]" name="close" is-config="true" duration-ms="2015" started-at="2021-11-04T16:32:20Z" finished-at="2021-11-04T16:32:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Activities.Activity5 -->
+      <class name="Activities.Activity4">
+        <test-method status="PASS" signature="load()[pri:0, instance:Activities.Activity4@23223dd8]" name="load" is-config="true" duration-ms="1" started-at="2021-11-04T16:32:22Z" finished-at="2021-11-04T16:32:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- load -->
+        <test-method status="PASS" signature="addEmployee(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Activities.Activity4@23223dd8]" name="addEmployee" duration-ms="24680" started-at="2021-11-04T16:32:22Z" data-provider="Authentication" finished-at="2021-11-04T16:32:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[orange]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[orangepassword123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sam]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEmployee -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Activities.Activity4@23223dd8]" name="close" is-config="true" duration-ms="1371" started-at="2021-11-04T16:32:47Z" finished-at="2021-11-04T16:32:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Activities.Activity4 -->
+      <class name="Activities.Activity9">
+        <test-method status="PASS" signature="load()[pri:0, instance:Activities.Activity9@3c5a99da]" name="load" is-config="true" duration-ms="1" started-at="2021-11-04T16:33:23Z" finished-at="2021-11-04T16:33:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- load -->
+        <test-method status="PASS" signature="getEmergencyContacts(java.lang.String, java.lang.String)[pri:0, instance:Activities.Activity9@3c5a99da]" name="getEmergencyContacts" duration-ms="44656" started-at="2021-11-04T16:33:23Z" data-provider="Authentication" finished-at="2021-11-04T16:34:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[orange]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[orangepassword123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getEmergencyContacts -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Activities.Activity9@3c5a99da]" name="close" is-config="true" duration-ms="1356" started-at="2021-11-04T16:34:08Z" finished-at="2021-11-04T16:34:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Activities.Activity9 -->
+      <class name="Activities.Activity8">
+        <test-method status="PASS" signature="load()[pri:0, instance:Activities.Activity8@47f37ef1]" name="load" is-config="true" duration-ms="1" started-at="2021-11-04T16:34:09Z" finished-at="2021-11-04T16:34:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- load -->
+        <test-method status="PASS" signature="applyLeave(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Activities.Activity8@47f37ef1]" name="applyLeave" duration-ms="43373" started-at="2021-11-04T16:34:09Z" data-provider="Authentication" finished-at="2021-11-04T16:34:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[orange]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[orangepassword123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[privilege leaves]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Oct]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[25]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2021]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Oct]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[28]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[2021]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applyLeave -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Activities.Activity8@47f37ef1]" name="close" is-config="true" duration-ms="1411" started-at="2021-11-04T16:34:52Z" finished-at="2021-11-04T16:34:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Activities.Activity8 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
